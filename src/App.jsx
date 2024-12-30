@@ -182,7 +182,7 @@ const App = () => {
                 }}>
                 <Avatar size="large" icon={<UserOutlined />} />
                 <p style={{ marginLeft: 10, marginRight: 70 }}>
-                  Lưu Nguyễn Duy Anh
+                  Lưu Nguyễn Duy Anh ❤ Thu Hiền
                 </p>
                 <Button type="primary" onClick={handleLogout}>
                   Đăng xuất
