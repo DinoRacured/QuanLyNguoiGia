@@ -1,0 +1,16 @@
+Cách xài git: 
+
+khi bạn có update mới:
+                tháng-ngày
+git checkout -b 1230_changeName
+git add .
+git commit -m "1230: đổi tên ABC"
+git pull origin master --rebase
+git push origin 1230_changeName
+
+xong nhắn tin qua cho ta
+
+
+khi ta có update mới, sẽ bảo mi pull code mới về:
+git checkout master
+git pull origin master
