@@ -1,0 +1,72 @@
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  /* background: #f0f2f5; */
+  background-image: url(./assets/background.png);
+  background-position: center center;
+  background-repeat: repeat-x;
+  background-size: contain;
+  position: relative;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./assets/PlayfairDisplay-Bold.ttf') format('truetype');
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.login-form-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-title {
+  margin-bottom: 24px;
+  color: #1890ff;
+}
+
+.login-form {
+  max-width: 300px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  position: absolute;
+  right: 20px;
+  bottom: 150px;
+}
+
+.login-form .ant-input:focus {
+  background-color: transparent;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.Header {
+  color: black;
+}
+
+.HeaderContent {
+  text-align: left;
+  position: relative;
+  margin-top: 90px;
+}
+
+.HeaderContent ul {
+  list-style: none;
+}
